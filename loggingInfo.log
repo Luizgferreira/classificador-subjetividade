@@ -1,113 +1,113 @@
-2019-08-17 20:06:23,623 Starting logging with options: 
-Namespace(choice='test', input=None, output='output.txt', toCorrelate=False, toPreprocess=False, useNB=False) 
+2019-08-17 22:51:31,331 Starting logging with options: 
+Namespace(choice='test', input=None, output='output.txt', toCorrelate=False, toPreprocess=False, useNB=True) 
 
-2019-08-17 20:06:23,640 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:06:23,640 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
-2019-08-17 20:06:23,692 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
-2019-08-17 20:06:23,692 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
-2019-08-17 20:06:23,709 setting ignored attribute vectors_norm to None
-2019-08-17 20:06:23,709 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
-2019-08-17 20:06:23,709 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
-2019-08-17 20:06:23,709 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
-2019-08-17 20:06:23,726 setting ignored attribute cum_table to None
-2019-08-17 20:06:23,726 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:06:23,761 precomputing L2-norms of word weight vectors
-2019-08-17 20:06:36,261 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:06:36,261 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
-2019-08-17 20:06:36,332 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
-2019-08-17 20:06:36,332 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
-2019-08-17 20:06:36,358 setting ignored attribute vectors_norm to None
-2019-08-17 20:06:36,358 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
-2019-08-17 20:06:36,358 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
-2019-08-17 20:06:36,358 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
-2019-08-17 20:06:36,382 setting ignored attribute cum_table to None
-2019-08-17 20:06:36,383 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:06:36,439 precomputing L2-norms of word weight vectors
-2019-08-17 20:06:54,960 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:06:54,960 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
-2019-08-17 20:06:54,995 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
-2019-08-17 20:06:54,995 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
-2019-08-17 20:06:55,020 setting ignored attribute vectors_norm to None
-2019-08-17 20:06:55,020 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
-2019-08-17 20:06:55,020 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
-2019-08-17 20:06:55,020 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
-2019-08-17 20:06:55,045 setting ignored attribute cum_table to None
-2019-08-17 20:06:55,045 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:06:55,102 precomputing L2-norms of word weight vectors
-2019-08-17 20:07:14,059 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:07:14,059 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
-2019-08-17 20:07:14,127 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
-2019-08-17 20:07:14,127 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
-2019-08-17 20:07:14,153 setting ignored attribute vectors_norm to None
-2019-08-17 20:07:14,153 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
-2019-08-17 20:07:14,153 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
-2019-08-17 20:07:14,153 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
-2019-08-17 20:07:14,177 setting ignored attribute cum_table to None
-2019-08-17 20:07:14,177 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:07:14,239 precomputing L2-norms of word weight vectors
-2019-08-17 20:07:34,748 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:07:34,748 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
-2019-08-17 20:07:34,822 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
-2019-08-17 20:07:34,822 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
-2019-08-17 20:07:34,847 setting ignored attribute vectors_norm to None
-2019-08-17 20:07:34,847 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
-2019-08-17 20:07:34,847 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
-2019-08-17 20:07:34,848 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
-2019-08-17 20:07:34,873 setting ignored attribute cum_table to None
-2019-08-17 20:07:34,873 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:07:34,935 precomputing L2-norms of word weight vectors
-2019-08-17 20:07:54,652 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:07:54,652 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
-2019-08-17 20:07:54,687 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
-2019-08-17 20:07:54,687 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
-2019-08-17 20:07:54,711 setting ignored attribute vectors_norm to None
-2019-08-17 20:07:54,712 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
-2019-08-17 20:07:54,712 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
-2019-08-17 20:07:54,712 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
-2019-08-17 20:07:54,737 setting ignored attribute cum_table to None
-2019-08-17 20:07:54,737 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:07:54,800 precomputing L2-norms of word weight vectors
-2019-08-17 20:08:10,902 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:08:10,903 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
-2019-08-17 20:08:10,954 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
-2019-08-17 20:08:10,954 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
-2019-08-17 20:08:10,975 setting ignored attribute vectors_norm to None
-2019-08-17 20:08:10,975 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
-2019-08-17 20:08:10,975 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
-2019-08-17 20:08:10,976 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
-2019-08-17 20:08:10,996 setting ignored attribute cum_table to None
-2019-08-17 20:08:10,996 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:08:11,040 precomputing L2-norms of word weight vectors
-2019-08-17 20:08:25,294 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:08:25,294 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
-2019-08-17 20:08:25,348 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
-2019-08-17 20:08:25,348 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
-2019-08-17 20:08:25,369 setting ignored attribute vectors_norm to None
-2019-08-17 20:08:25,369 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
-2019-08-17 20:08:25,369 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
-2019-08-17 20:08:25,369 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
-2019-08-17 20:08:25,391 setting ignored attribute cum_table to None
-2019-08-17 20:08:25,391 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:08:25,438 precomputing L2-norms of word weight vectors
-2019-08-17 20:08:41,837 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:08:41,838 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
-2019-08-17 20:08:41,864 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
-2019-08-17 20:08:41,864 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
-2019-08-17 20:08:41,885 setting ignored attribute vectors_norm to None
-2019-08-17 20:08:41,885 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
-2019-08-17 20:08:41,885 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
-2019-08-17 20:08:41,885 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
-2019-08-17 20:08:41,906 setting ignored attribute cum_table to None
-2019-08-17 20:08:41,906 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:08:41,949 precomputing L2-norms of word weight vectors
-2019-08-17 20:08:52,680 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:08:52,680 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
-2019-08-17 20:08:52,731 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
-2019-08-17 20:08:52,731 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
-2019-08-17 20:08:52,751 setting ignored attribute vectors_norm to None
-2019-08-17 20:08:52,752 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
-2019-08-17 20:08:52,752 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
-2019-08-17 20:08:52,752 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
-2019-08-17 20:08:52,773 setting ignored attribute cum_table to None
-2019-08-17 20:08:52,773 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
-2019-08-17 20:08:52,815 precomputing L2-norms of word weight vectors
+2019-08-17 22:51:31,349 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:51:31,349 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
+2019-08-17 22:51:31,401 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
+2019-08-17 22:51:31,401 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
+2019-08-17 22:51:31,417 setting ignored attribute vectors_norm to None
+2019-08-17 22:51:31,418 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
+2019-08-17 22:51:31,418 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
+2019-08-17 22:51:31,418 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
+2019-08-17 22:51:31,434 setting ignored attribute cum_table to None
+2019-08-17 22:51:31,435 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:51:31,470 precomputing L2-norms of word weight vectors
+2019-08-17 22:51:40,941 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:51:40,942 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
+2019-08-17 22:51:40,987 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
+2019-08-17 22:51:40,988 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
+2019-08-17 22:51:41,007 setting ignored attribute vectors_norm to None
+2019-08-17 22:51:41,007 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
+2019-08-17 22:51:41,007 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
+2019-08-17 22:51:41,007 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
+2019-08-17 22:51:41,024 setting ignored attribute cum_table to None
+2019-08-17 22:51:41,024 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:51:41,058 precomputing L2-norms of word weight vectors
+2019-08-17 22:51:51,354 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:51:51,354 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
+2019-08-17 22:51:51,382 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
+2019-08-17 22:51:51,382 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
+2019-08-17 22:51:51,402 setting ignored attribute vectors_norm to None
+2019-08-17 22:51:51,402 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
+2019-08-17 22:51:51,402 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
+2019-08-17 22:51:51,402 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
+2019-08-17 22:51:51,423 setting ignored attribute cum_table to None
+2019-08-17 22:51:51,423 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:51:51,466 precomputing L2-norms of word weight vectors
+2019-08-17 22:52:03,060 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:52:03,060 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
+2019-08-17 22:52:03,104 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
+2019-08-17 22:52:03,105 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
+2019-08-17 22:52:03,122 setting ignored attribute vectors_norm to None
+2019-08-17 22:52:03,122 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
+2019-08-17 22:52:03,122 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
+2019-08-17 22:52:03,122 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
+2019-08-17 22:52:03,138 setting ignored attribute cum_table to None
+2019-08-17 22:52:03,138 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:52:03,173 precomputing L2-norms of word weight vectors
+2019-08-17 22:52:13,218 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:52:13,218 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
+2019-08-17 22:52:13,271 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
+2019-08-17 22:52:13,271 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
+2019-08-17 22:52:13,291 setting ignored attribute vectors_norm to None
+2019-08-17 22:52:13,291 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
+2019-08-17 22:52:13,291 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
+2019-08-17 22:52:13,291 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
+2019-08-17 22:52:13,311 setting ignored attribute cum_table to None
+2019-08-17 22:52:13,311 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:52:13,355 precomputing L2-norms of word weight vectors
+2019-08-17 22:52:23,348 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:52:23,348 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
+2019-08-17 22:52:23,375 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
+2019-08-17 22:52:23,375 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
+2019-08-17 22:52:23,396 setting ignored attribute vectors_norm to None
+2019-08-17 22:52:23,396 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
+2019-08-17 22:52:23,396 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
+2019-08-17 22:52:23,396 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
+2019-08-17 22:52:23,416 setting ignored attribute cum_table to None
+2019-08-17 22:52:23,416 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:52:23,459 precomputing L2-norms of word weight vectors
+2019-08-17 22:52:33,553 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:52:33,553 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
+2019-08-17 22:52:33,605 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
+2019-08-17 22:52:33,605 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
+2019-08-17 22:52:33,625 setting ignored attribute vectors_norm to None
+2019-08-17 22:52:33,625 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
+2019-08-17 22:52:33,625 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
+2019-08-17 22:52:33,625 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
+2019-08-17 22:52:33,646 setting ignored attribute cum_table to None
+2019-08-17 22:52:33,646 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:52:33,693 precomputing L2-norms of word weight vectors
+2019-08-17 22:52:44,363 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:52:44,363 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
+2019-08-17 22:52:44,416 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
+2019-08-17 22:52:44,416 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
+2019-08-17 22:52:44,436 setting ignored attribute vectors_norm to None
+2019-08-17 22:52:44,436 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
+2019-08-17 22:52:44,436 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
+2019-08-17 22:52:44,436 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
+2019-08-17 22:52:44,457 setting ignored attribute cum_table to None
+2019-08-17 22:52:44,457 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:52:44,502 precomputing L2-norms of word weight vectors
+2019-08-17 22:52:55,268 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:52:55,268 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
+2019-08-17 22:52:55,295 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
+2019-08-17 22:52:55,295 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
+2019-08-17 22:52:55,315 setting ignored attribute vectors_norm to None
+2019-08-17 22:52:55,315 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
+2019-08-17 22:52:55,315 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
+2019-08-17 22:52:55,315 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
+2019-08-17 22:52:55,338 setting ignored attribute cum_table to None
+2019-08-17 22:52:55,338 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:52:55,381 precomputing L2-norms of word weight vectors
+2019-08-17 22:53:06,147 loading Word2Vec object from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:53:06,147 {'kw': {}, 'mode': 'rb', 'uri': '/home/luiz/Music/classifier/code/data/model/word2vecBuscape.model'}
+2019-08-17 22:53:06,199 loading wv recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.* with mmap=None
+2019-08-17 22:53:06,199 loading vectors from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.wv.vectors.npy with mmap=None
+2019-08-17 22:53:06,219 setting ignored attribute vectors_norm to None
+2019-08-17 22:53:06,219 loading vocabulary recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.vocabulary.* with mmap=None
+2019-08-17 22:53:06,219 loading trainables recursively from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.* with mmap=None
+2019-08-17 22:53:06,219 loading syn1neg from /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model.trainables.syn1neg.npy with mmap=None
+2019-08-17 22:53:06,240 setting ignored attribute cum_table to None
+2019-08-17 22:53:06,240 loaded /home/luiz/Music/classifier/code/data/model/word2vecBuscape.model
+2019-08-17 22:53:06,283 precomputing L2-norms of word weight vectors

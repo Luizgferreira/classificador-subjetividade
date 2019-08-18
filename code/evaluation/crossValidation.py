@@ -65,5 +65,6 @@ def CV(options, main_path,k=10, correlated=None):
     fp.close()
     for key, value in resultsDict.items():
         resultsDict[key] = (mean(value), stdev(value))
-    #print('(mean, stdev)')
+    train(options)
+    print('(mean, stdev)')
     return(resultsDict)

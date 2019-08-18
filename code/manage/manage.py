@@ -43,8 +43,14 @@ def train(options, cross_validation=False,corpus=None, labels=None):
     if(options.toCorrelate):
         corpus = transform_sentences(corpus, correl_dic)
     x_sub, x_neu = divide_data(corpus, labels)
-    generateNB_data(corpus, labels, x_sub, x_neu)
-    generateSMO_data(corpus, labels, x_sub, x_neu)
+    if(cross_validation):
+        if(options.useNB):
+            generateNB_data(corpus, labels, x_sub, x_neu)
+        else:
+            generateSMO_data(corpus, labels, x_sub, x_neu)
+    else:
+        generateNB_data(corpus, labels, x_sub, x_neu)
+        generateSMO_data(corpus, labels, x_sub, x_neu)
 
 def create_model(options, main_path):
     vectorizer = CountVectorizer()

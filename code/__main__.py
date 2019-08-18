@@ -33,7 +33,7 @@ def run():
     if(options.choice=='train'):
         manage.train(options)
     elif(options.choice=='test'):
-        print(crossValidation.CV(options, file_path, correlated=options.toCorrelate))
+        print(crossValidation.CV(options, file_path, k=10,correlated=options.toCorrelate))
     elif(options.choice=='classify'):
         manage.file_classify(logger, options, file_path, correlated=options.toCorrelate)
     elif(options.choice=='interactive'):
